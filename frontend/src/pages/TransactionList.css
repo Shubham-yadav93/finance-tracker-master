@@ -1,0 +1,55 @@
+.transaction-list {
+  padding: 2rem;
+}
+
+.transactions {
+  margin-top: 1rem;
+}
+
+.transaction-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.transaction-type {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.transaction-type.income {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.transaction-type.expense {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
